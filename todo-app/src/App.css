@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  width: 500px;
+  height: 600px;
+  margin: auto;
+  background-color: var(--color-bg);
+  border-radius: 20px;
+  position: relative;
+}

@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto 15px auto;
+  border-bottom: 1px solid gray;
+}
+
+.container-dark {
+  display: flex;
+  width: 90%;
+  margin: 0 auto 15px auto;
+  border-bottom: 1px solid white;
+}
+
+.todo_text {
+  width: 70%;
+  text-align: left;
+  margin: 8px;
+}
+
+.button {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rebeccapurple;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.checkbox {
+  width: 15px;
+}
