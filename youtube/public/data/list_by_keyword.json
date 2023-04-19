@@ -1,6 +1,6 @@
 {
   "kind": "youtube#searchListResponse",
-  "etag": "Oq6bluiq5-m5xRXP3DLUf8DP30s",
+  "etag": "QnGvHDoS51MnwsyHENDfzWKU21I",
   "nextPageToken": "CBkQAA",
   "regionCode": "KR",
   "pageInfo": {
@@ -8,6 +8,40 @@
     "resultsPerPage": 25
   },
   "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SgxmYR5VmSDPXvID8rgeK5GNEOE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Cb70gcTVvYI"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-16T04:00:03Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "BTS (방탄소년단) &#39;달려라 방탄 (Run BTS)&#39; @ BTS &quot;Yet To Come&quot; in BUSAN",
+        "description": "BTS #방탄소년단 #달려라방탄 #RunBTS #YetToComeInBUSAN Connect with BTS: https://ibighit.com/bts ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Cb70gcTVvYI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Cb70gcTVvYI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Cb70gcTVvYI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-16T04:00:03Z"
+      }
+    },
     {
       "kind": "youtube#searchResult",
       "etag": "EMmyQ1A--fWn8G4dKhhwG-x1Wwc",
@@ -78,306 +112,6 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "4Ch_wHt_-Rm8vDMTduI05PABko8",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "ghsloxhKi8A"
-      },
-      "snippet": {
-        "publishedAt": "2023-04-18T08:04:13Z",
-        "channelId": "UCwCrPg60zuzeHt3IsQRrJrg",
-        "title": "BTS 제이홉 입대 전 마지막 모습 단독 포착 (BTS J hope enlists in south Korean Army)",
-        "description": "bts #jhope #enlistment #제이홉 #제이홉입대 #방탄소년단 #방탄 #아미 #army #military 그룹 방탄소년단, BTS 멤버 제이홉이 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/ghsloxhKi8A/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/ghsloxhKi8A/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/ghsloxhKi8A/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "원주MBC NEWS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-04-18T08:04:13Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "khwnQWX8tf2vdpuYf_g7kwu1mgk",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "WMweEpGlu_U"
-      },
-      "snippet": {
-        "publishedAt": "2021-05-21T03:46:13Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Butter&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Butter' Official MV Credits: Director: Yong Seok Choi (Lumpens) 1st AD: Jihye Yoon (Lumpens) 2nd AD: Ran ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-05-21T03:46:13Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "3J7d6C0-TkWDUnm1Ml9DUZ_wlP4",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "UAFi_5SD8GI"
-      },
-      "snippet": {
-        "publishedAt": "2023-04-18T10:56:19Z",
-        "channelId": "UC0UX_EK8-UuBi-OrkmWB6eA",
-        "title": "【撩星聞】J-HOPE入伍！ 柾國趕回國 JIN特排休  BTS完全體再現感人摸頭儀式",
-        "description": "天團BTS繼大哥JIN之後，J-HOPE在18日成為第二位入伍的成員，防彈其他5人加上特地申請休假的JIN，都到場送行，七人合體再次 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/UAFi_5SD8GI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/UAFi_5SD8GI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/UAFi_5SD8GI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "中天娛樂頻道",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-04-18T10:56:19Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "ScPcCuTqaj2xoIijDNE0-zYBuK8",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "4ujQOR2DMFM"
-      },
-      "snippet": {
-        "publishedAt": "2016-05-01T15:00:22Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;불타오르네 (FIRE)&#39; Official MV",
-        "description": "BTS Special Album '화양연화 Young Forever' will be released on 2nd May 2016. iTunes Download Link ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/4ujQOR2DMFM/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/4ujQOR2DMFM/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/4ujQOR2DMFM/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2016-05-01T15:00:22Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "SgxmYR5VmSDPXvID8rgeK5GNEOE",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "Cb70gcTVvYI"
-      },
-      "snippet": {
-        "publishedAt": "2022-10-16T04:00:03Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "BTS (방탄소년단) &#39;달려라 방탄 (Run BTS)&#39; @ BTS &quot;Yet To Come&quot; in BUSAN",
-        "description": "BTS #방탄소년단 #달려라방탄 #RunBTS #YetToComeInBUSAN Connect with BTS: https://ibighit.com/bts ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/Cb70gcTVvYI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/Cb70gcTVvYI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/Cb70gcTVvYI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-10-16T04:00:03Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "OB5_-e5VAd6gVMqFgNqmY8IB_X8",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "kTlv5_Bs8aw"
-      },
-      "snippet": {
-        "publishedAt": "2017-11-24T09:00:02Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;MIC Drop (Steve Aoki Remix)&#39; Official MV",
-        "description": "BTS (방탄소년단) 'MIC Drop (Steve Aoki Remix)' Official MV Credits: Music Video by GDW, Directed by Woogie Kim Producer: ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2017-11-24T09:00:02Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "Tln3WOL0XUuV918TrzYcsrFM-Ew",
-      "id": {
-        "kind": "youtube#channel",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ"
-      },
-      "snippet": {
-        "publishedAt": "2012-12-17T03:20:38Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "BANGTANTV",
-        "description": "This is the official YouTube channel of BTS. 방탄소년단 공식 유튜브 채널 입니다.",
-        "thumbnails": {
-          "default": {
-            "url": "https://yt3.ggpht.com/NDWZM_aZQZJ81KRMyctZ5WYJbMIeDXLXBbAYfudK9idNpn7jIiamnj4-_3XIvCvKr1fEU7551A=s88-c-k-c0xffffffff-no-rj-mo"
-          },
-          "medium": {
-            "url": "https://yt3.ggpht.com/NDWZM_aZQZJ81KRMyctZ5WYJbMIeDXLXBbAYfudK9idNpn7jIiamnj4-_3XIvCvKr1fEU7551A=s240-c-k-c0xffffffff-no-rj-mo"
-          },
-          "high": {
-            "url": "https://yt3.ggpht.com/NDWZM_aZQZJ81KRMyctZ5WYJbMIeDXLXBbAYfudK9idNpn7jIiamnj4-_3XIvCvKr1fEU7551A=s800-c-k-c0xffffffff-no-rj-mo"
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2012-12-17T03:20:38Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "HybyPNhkoe1OdwjLUyXrXIIrUo0",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "CuklIb9d3fI"
-      },
-      "snippet": {
-        "publishedAt": "2021-07-09T03:59:12Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Permission to Dance&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Permission to Dance' Official MV Credits: Director: Yong Seok Choi (Lumpens) & Woogie Kim (MOTHER) ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-07-09T03:59:12Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "FTzKbnZRF3Fw4gA_DhhurphBfwk",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "zEKrllMQ8Ow"
-      },
-      "snippet": {
-        "publishedAt": "2023-04-18T06:56:49Z",
-        "channelId": "UCmRZ-zoZ0ZdHRq9XvQzmSCQ",
-        "title": "BTS say bye to JHOPE, JIN WAS THERE! (Military Enlistment Service) | 방탄소년단 2023",
-        "description": "Support me through Patreon: https://www.patreon.com/JoseOchoaTV BTS Update | BTS J-Hope weverse Jimin Military Service ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/zEKrllMQ8Ow/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/zEKrllMQ8Ow/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/zEKrllMQ8Ow/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "JoseOchoaTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-04-18T06:56:49Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
       "etag": "XU6ShmlsIsaZudNzmowDsZE_WX0",
       "id": {
         "kind": "youtube#video",
@@ -408,210 +142,6 @@
         "channelTitle": "HYBE LABELS",
         "liveBroadcastContent": "none",
         "publishTime": "2020-11-20T04:58:11Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "66aWHlCoeonIjrxhsRkH__AD44I",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "HbkBVxU5K5A"
-      },
-      "snippet": {
-        "publishedAt": "2022-04-23T01:00:03Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "BTS (방탄소년단) &#39;Butter&#39; @ The 64th GRAMMY Awards",
-        "description": "Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-04-23T01:00:03Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "3PvRA7ClIINP2DwSD6WSIOC2YHc",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "UaywgAqcLxI"
-      },
-      "snippet": {
-        "publishedAt": "2023-03-17T03:59:11Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "지민 (Jimin) &#39;Set Me Free Pt.2&#39; Official MV",
-        "description": "지민 (Jimin) 'Set Me Free Pt.2' Official MV 'FACE' Release 3/24 1PM KST | 0AM ET Pre-order & pre-save 'FACE': ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/UaywgAqcLxI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/UaywgAqcLxI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/UaywgAqcLxI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-03-17T03:59:11Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "VAk0-ol-Nm5PMr-oF-vG86-vNso",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "DbXMjAYSa68"
-      },
-      "snippet": {
-        "publishedAt": "2021-05-30T10:00:01Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "[CHOREOGRAPHY] BTS (방탄소년단) &#39;Butter&#39; Special Performance Video",
-        "description": "Artist: RM, Jin, SUGA, j-hope, Jimin, V, Jung Kook Production Artist Contents Studio (HYBE 360) Director: Jang Jeong In Assistant ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-05-30T10:00:01Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "Mn40adS9BDrZ78sQCsQj-6bR9VQ",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "0lapF4DQPKQ"
-      },
-      "snippet": {
-        "publishedAt": "2020-03-04T15:00:02Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Black Swan&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Black Swan' Official MV Credits: Director : YongSeok Choi (Lumpens) Co-Director : Guzza (Lumpens) Assistant ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/0lapF4DQPKQ/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/0lapF4DQPKQ/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/0lapF4DQPKQ/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-03-04T15:00:02Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "Dfe0bqhg8R4sM-Q_-Zy_xijjWlw",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "EcSlW6hyuf8"
-      },
-      "snippet": {
-        "publishedAt": "2023-04-18T12:19:48Z",
-        "channelId": "UCwCrPg60zuzeHt3IsQRrJrg",
-        "title": "2023. 4. 18 [원주MBC] BTS 제이홉, 원주 육군 36사단 입소",
-        "description": "[MBC 뉴스데스크 원주] #BTS #방탄소년단 #방탄 #제이홉 #제이홉입대 #BTS진 #아미 #army #military #bts #jhope #enlistment ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/EcSlW6hyuf8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/EcSlW6hyuf8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/EcSlW6hyuf8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "원주MBC NEWS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-04-18T12:19:48Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "89PNF6yLFacL0KptgUDS9cJZnWw",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "hmE9f-TEutc"
-      },
-      "snippet": {
-        "publishedAt": "2016-10-09T15:00:02Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;피 땀 눈물 (Blood Sweat &amp; Tears)&#39; Official MV",
-        "description": "BTS (방탄소년단) '피 땀 눈물 (Blood Sweat & Tears)' Official MV Music video credits: Director: YongSeok Choi (Lumpens) ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/hmE9f-TEutc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/hmE9f-TEutc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/hmE9f-TEutc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2016-10-09T15:00:02Z"
       }
     },
     {
@@ -650,6 +180,204 @@
     },
     {
       "kind": "youtube#searchResult",
+      "etag": "khwnQWX8tf2vdpuYf_g7kwu1mgk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WMweEpGlu_U"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-21T03:46:13Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) &#39;Butter&#39; Official MV",
+        "description": "BTS (방탄소년단) 'Butter' Official MV Credits: Director: Yong Seok Choi (Lumpens) 1st AD: Jihye Yoon (Lumpens) 2nd AD: Ran ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-21T03:46:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HybyPNhkoe1OdwjLUyXrXIIrUo0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CuklIb9d3fI"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-09T03:59:12Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) &#39;Permission to Dance&#39; Official MV",
+        "description": "BTS (방탄소년단) 'Permission to Dance' Official MV Credits: Director: Yong Seok Choi (Lumpens) & Woogie Kim (MOTHER) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-09T03:59:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "66aWHlCoeonIjrxhsRkH__AD44I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HbkBVxU5K5A"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-23T01:00:03Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "BTS (방탄소년단) &#39;Butter&#39; @ The 64th GRAMMY Awards",
+        "description": "Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-23T01:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VAk0-ol-Nm5PMr-oF-vG86-vNso",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DbXMjAYSa68"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-30T10:00:01Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "[CHOREOGRAPHY] BTS (방탄소년단) &#39;Butter&#39; Special Performance Video",
+        "description": "Artist: RM, Jin, SUGA, j-hope, Jimin, V, Jung Kook Production Artist Contents Studio (HYBE 360) Director: Jang Jeong In Assistant ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-30T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Tln3WOL0XUuV918TrzYcsrFM-Ew",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ"
+      },
+      "snippet": {
+        "publishedAt": "2012-12-17T03:20:38Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "BANGTANTV",
+        "description": "This is the official YouTube channel of BTS. 방탄소년단 공식 유튜브 채널 입니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/NDWZM_aZQZJ81KRMyctZ5WYJbMIeDXLXBbAYfudK9idNpn7jIiamnj4-_3XIvCvKr1fEU7551A=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/NDWZM_aZQZJ81KRMyctZ5WYJbMIeDXLXBbAYfudK9idNpn7jIiamnj4-_3XIvCvKr1fEU7551A=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/NDWZM_aZQZJ81KRMyctZ5WYJbMIeDXLXBbAYfudK9idNpn7jIiamnj4-_3XIvCvKr1fEU7551A=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2012-12-17T03:20:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OB5_-e5VAd6gVMqFgNqmY8IB_X8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kTlv5_Bs8aw"
+      },
+      "snippet": {
+        "publishedAt": "2017-11-24T09:00:02Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) &#39;MIC Drop (Steve Aoki Remix)&#39; Official MV",
+        "description": "BTS (방탄소년단) 'MIC Drop (Steve Aoki Remix)' Official MV Credits: Music Video by GDW, Directed by Woogie Kim Producer: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-11-24T09:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
       "etag": "sGTqR_czi441WXXR4e3cJbDb3CE",
       "id": {
         "kind": "youtube#video",
@@ -684,104 +412,240 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "t4W6rLxwp_gMN2mXi_Pk_q7c6UU",
+      "etag": "3PvRA7ClIINP2DwSD6WSIOC2YHc",
       "id": {
         "kind": "youtube#video",
-        "videoId": "XigGbzte8Wg"
+        "videoId": "UaywgAqcLxI"
       },
       "snippet": {
-        "publishedAt": "2022-10-16T12:00:02Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "[BANGTAN BOMB] ‘MIC Drop’ &amp; ‘달려라 방탄 (Run BTS)’ Stage CAM (BTS focus) @ BTS “Yet To Come” in BUSAN",
-        "description": "BANGTANBOMB #방탄밤 #BTS #방탄소년단 Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/XigGbzte8Wg/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/XigGbzte8Wg/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/XigGbzte8Wg/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-10-16T12:00:02Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "zaVfo5NIpxIH81qnB4cfzKnMIKw",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "7C2z4GqqS5E"
-      },
-      "snippet": {
-        "publishedAt": "2018-05-18T09:00:02Z",
+        "publishedAt": "2023-03-17T03:59:11Z",
         "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;FAKE LOVE&#39; Official MV",
-        "description": "BTS (방탄소년단) 'FAKE LOVE' Official MV Director : YongSeok Choi (Lumpens) Assistant Director : WonJu Lee, Guzza, ...",
+        "title": "지민 (Jimin) &#39;Set Me Free Pt.2&#39; Official MV",
+        "description": "지민 (Jimin) 'Set Me Free Pt.2' Official MV 'FACE' Release 3/24 1PM KST | 0AM ET Pre-order & pre-save 'FACE': ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/7C2z4GqqS5E/default.jpg",
+            "url": "https://i.ytimg.com/vi/UaywgAqcLxI/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/7C2z4GqqS5E/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/UaywgAqcLxI/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/7C2z4GqqS5E/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/UaywgAqcLxI/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "HYBE LABELS",
         "liveBroadcastContent": "none",
-        "publishTime": "2018-05-18T09:00:02Z"
+        "publishTime": "2023-03-17T03:59:11Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "iEL6IIPuPu0km66xBMfp9BY3CGE",
+      "etag": "qVAEl3dNPm43VnQg7p-HyUyZoAo",
       "id": {
         "kind": "youtube#video",
-        "videoId": "-tktXhTF0sM"
+        "videoId": "gUmE_TRdp0s"
       },
       "snippet": {
-        "publishedAt": "2022-04-08T20:45:01Z",
-        "channelId": "UCPnyWr2K0yjPsmGV-pO_1vQ",
-        "title": "B T S ALL PLAYLIST NEW SONGS 2022 (Update) 방탄소년단 노래 모음",
-        "description": "B T S ALL PLAYLIST NEW SONGS 2022 (Update) 방탄소년단 노래 모음 B T S ALL PLAYLIST NEW SONGS 2022 (Update) 방탄 ...",
+        "publishedAt": "2023-04-19T05:45:07Z",
+        "channelId": "UCJ0uqCI0Vqr2Rrt1HseGirg",
+        "title": "BLACKPINK Carpool Karaoke",
+        "description": "James cruises through Los Angeles with BLACKPINK singing their hits and telling stories. James gets a krumping tutorial and the ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/-tktXhTF0sM/default.jpg",
+            "url": "https://i.ytimg.com/vi/gUmE_TRdp0s/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/-tktXhTF0sM/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/gUmE_TRdp0s/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/-tktXhTF0sM/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/gUmE_TRdp0s/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "음악적감정",
+        "channelTitle": "The Late Late Show with James Corden",
         "liveBroadcastContent": "none",
-        "publishTime": "2022-04-08T20:45:01Z"
+        "publishTime": "2023-04-19T05:45:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ScPcCuTqaj2xoIijDNE0-zYBuK8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4ujQOR2DMFM"
+      },
+      "snippet": {
+        "publishedAt": "2016-05-01T15:00:22Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) &#39;불타오르네 (FIRE)&#39; Official MV",
+        "description": "BTS Special Album '화양연화 Young Forever' will be released on 2nd May 2016. iTunes Download Link ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4ujQOR2DMFM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4ujQOR2DMFM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4ujQOR2DMFM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-05-01T15:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YGUMuR_SIr-LryOh8qt_lvTwJQw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5UB8dL4WcCU"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-16T14:00:02Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "BTS (방탄소년단) &#39;봄날 (Spring Day)&#39; @ A Butterful Getaway with BTS",
+        "description": "Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5UB8dL4WcCU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5UB8dL4WcCU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5UB8dL4WcCU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-16T14:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "m5C_eTD4IkQBjoFMEo14NTF_CVg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MBdVXkSdhwU"
+      },
+      "snippet": {
+        "publishedAt": "2017-09-18T09:00:02Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) &#39;DNA&#39; Official MV",
+        "description": "BTS (방탄소년단) 'DNA' Official MV Credits: Director : YongSeok Choi (Lumpens) Assistant Director : WonJu Lee (Lumpens) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MBdVXkSdhwU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MBdVXkSdhwU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MBdVXkSdhwU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-09-18T09:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lmkm7HBCcsjyPvNYQDOu-Hdlkgs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pBuZEGYXA6E"
+      },
+      "snippet": {
+        "publishedAt": "2018-08-24T09:00:03Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) &#39;IDOL&#39; Official MV",
+        "description": "BTS (방탄소년단) 'IDOL' Official MV Director : YongSeok Choi (Lumpens) Assistant Director : Guzza, MinJe Jeong, HyeJeong Park ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pBuZEGYXA6E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pBuZEGYXA6E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pBuZEGYXA6E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-08-24T09:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_FEJrHigpJi9F5_MDUVTzpC4cWo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MqpMy8XI_6s"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-01T11:54:42Z",
+        "channelId": "UCnqkClmpkbi2xRjttuYPvWw",
+        "title": "BTS/방탄소년단 &#39;Blood Sweat &amp; Tears + Fake Love&#39; Live PTD On Stage Las Vegas D-4",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MqpMy8XI_6s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MqpMy8XI_6s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MqpMy8XI_6s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BTS LIVE 2",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-01T11:54:42Z"
       }
     },
     {
@@ -820,36 +684,172 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "tkuQ2qNvlSdXCXBAkEC2YbQczpU",
+      "etag": "Mn40adS9BDrZ78sQCsQj-6bR9VQ",
       "id": {
         "kind": "youtube#video",
-        "videoId": "zPY6b9MHHng"
+        "videoId": "0lapF4DQPKQ"
       },
       "snippet": {
-        "publishedAt": "2023-04-18T10:48:03Z",
-        "channelId": "UCbHze3Bg0pHmSqpxNKIBv_g",
-        "title": "BTSのJ-HOPE入隊　JINに続き兵役“2人目”　メンバー全員が“集合写真”",
-        "description": "18日午後3時過ぎに公開された、世界で活躍する韓国の人気グループ・BTSのメンバー7人の写真。 センターにいるのは、髪の毛を ...",
+        "publishedAt": "2020-03-04T15:00:02Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) &#39;Black Swan&#39; Official MV",
+        "description": "BTS (방탄소년단) 'Black Swan' Official MV Credits: Director : YongSeok Choi (Lumpens) Co-Director : Guzza (Lumpens) Assistant ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/zPY6b9MHHng/default.jpg",
+            "url": "https://i.ytimg.com/vi/0lapF4DQPKQ/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/zPY6b9MHHng/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/0lapF4DQPKQ/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/zPY6b9MHHng/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/0lapF4DQPKQ/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "アジアのニュース　FNNプライムオンライン",
+        "channelTitle": "HYBE LABELS",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-04-18T10:48:03Z"
+        "publishTime": "2020-03-04T15:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zaVfo5NIpxIH81qnB4cfzKnMIKw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7C2z4GqqS5E"
+      },
+      "snippet": {
+        "publishedAt": "2018-05-18T09:00:02Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) &#39;FAKE LOVE&#39; Official MV",
+        "description": "BTS (방탄소년단) 'FAKE LOVE' Official MV Director : YongSeok Choi (Lumpens) Assistant Director : WonJu Lee, Guzza, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7C2z4GqqS5E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7C2z4GqqS5E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7C2z4GqqS5E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-05-18T09:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "89PNF6yLFacL0KptgUDS9cJZnWw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hmE9f-TEutc"
+      },
+      "snippet": {
+        "publishedAt": "2016-10-09T15:00:02Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) &#39;피 땀 눈물 (Blood Sweat &amp; Tears)&#39; Official MV",
+        "description": "BTS (방탄소년단) '피 땀 눈물 (Blood Sweat & Tears)' Official MV Music video credits: Director: YongSeok Choi (Lumpens) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hmE9f-TEutc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hmE9f-TEutc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hmE9f-TEutc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-10-09T15:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JO1N_-q_-JOAykVPntS9t62It-A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mzvspmbcB8s"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-19T04:00:10Z",
+        "channelId": "UCT0iBL3ZS4WQDtiDs_UDdhA",
+        "title": "BTS PLAYLIST SUMMER 2023",
+        "description": "Bienvenidos a todos a mi canal! Aquí estaré subiendo videos de distintos grupos de Kpop, esta vez subí distintas canciones de ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mzvspmbcB8s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mzvspmbcB8s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mzvspmbcB8s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Minjo's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-19T04:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OXWGQkOSryEd2WivbyoqnG3FDqo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GZjt_sA2eso"
+      },
+      "snippet": {
+        "publishedAt": "2016-05-15T13:00:03Z",
+        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
+        "title": "BTS (방탄소년단) &#39;Save ME&#39; Official MV",
+        "description": "BTS (방탄소년단) 'Save ME' Official MV.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GZjt_sA2eso/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GZjt_sA2eso/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GZjt_sA2eso/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HYBE LABELS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-05-15T13:00:03Z"
       }
     }
   ]
