@@ -8,7 +8,6 @@ import styles from "./Navbar.module.css";
 export default function Navbar() {
   const [text, setText] = useState("");
   const navigate = useNavigate();
-  const client = useQueryClient();
   const handleChange = (e) => {
     setText(e.target.value);
   };
@@ -20,21 +19,24 @@ export default function Navbar() {
 
   return (
     <nav className={styles.navbar}>
-      <Link to="/">
+      <Link to="/" className={styles.logos}>
         <BsYoutube className={styles.logo} />
+
+        <p className={styles.font}>Youtube</p>
       </Link>
-      <p>Youtube</p>
-      <form onSubmit={handleSubmit}>
+
+      <form onSubmit={handleSubmit} className={styles.form}>
         <input
+          className={styles.input}
           type="text"
           placeholder="Search..."
           value={text}
           onChange={handleChange}
         />
+        <button className={styles.button}>
+          <BiSearch />
+        </button>
       </form>
-      <button>
-        <BiSearch />
-      </button>
     </nav>
   );
 }

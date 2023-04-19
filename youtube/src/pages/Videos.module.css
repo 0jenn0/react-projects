@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  width: 80%;
+  /* margin: 30px auto 0 auto; */
+  margin: auto;
+  /* grid-template-columns: repeat(5, auto); */
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    display: grid;
+    width: 80vw;
+    margin: 30px auto 0 auto;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .container {
+    display: grid;
+    width: 80vw;
+    margin: 30px auto 0 auto;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+    gap: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    display: grid;
+    width: 80vw;
+    margin: 30px auto 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+}

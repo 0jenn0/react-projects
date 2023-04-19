@@ -1,0 +1,30 @@
+.container {
+  min-width: 200px;
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.title {
+  /* max-width: 200px; */
+  height: 1.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+
+.channel {
+  font-size: small;
+  margin: 0;
+}
+
+.thum {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.column2 {
+  display: block;
+}
