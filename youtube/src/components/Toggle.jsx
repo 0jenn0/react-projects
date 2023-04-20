@@ -13,9 +13,9 @@ export default function Toggle({ label, handleDarkMode, darkMode }) {
       />
       <div className={styles.span}>
         {/* {!darkMode ? (
-          <FaMoon className={styles.icon} />
+          <FaMoon className={styles.moon} />
         ) : (
-          <BsSunFill className={styles.icon} />
+          <TbSun className={styles.sun} />
         )} */}
         <FaMoon className={styles.moon} />
         <TbSun className={styles.sun} />

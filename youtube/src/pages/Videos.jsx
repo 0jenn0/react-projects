@@ -3,7 +3,6 @@ import { useQuery } from "@tanstack/react-query";
 import VideoCard from "../components/VideoCard";
 import styles from "./Videos.module.css";
 import { useParams } from "react-router-dom";
-import { apis } from "../api/keyword";
 import LoadingVideoCard from "../components/loading/LoadingVideoCard";
 
 export default function Videos() {

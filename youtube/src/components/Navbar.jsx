@@ -47,7 +47,7 @@ export default function Navbar() {
       </form>
       {/* <button className={styles.toggle}>toggle</button> */}
       <Toggle handleDarkMode={handleDarkMode} darkMode={darkMode}>
-        {darkMode === true ? "To Light" : "To Dark"}
+        {darkMode ? "To Light" : "To Dark"}
       </Toggle>
     </nav>
   );
