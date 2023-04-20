@@ -7,6 +7,7 @@ import Videos from "./pages/Videos";
 import VideoDetail from "./pages/VideoDetail";
 import Root from "./pages/Root";
 import Why from "./pages/why";
+import { DarkModeProvider } from "./context/DarkModeContext";
 
 const router = createBrowserRouter([
   {
@@ -25,10 +26,12 @@ const router = createBrowserRouter([
 const queryClient = new QueryClient();
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
-      <ReactQueryDevtools initialIsOpen={true} />
-    </QueryClientProvider>
+    <DarkModeProvider>
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+        <ReactQueryDevtools initialIsOpen={true} />
+      </QueryClientProvider>
+    </DarkModeProvider>
   );
 }
 

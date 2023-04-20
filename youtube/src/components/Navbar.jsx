@@ -4,8 +4,11 @@ import { useQueryClient } from "@tanstack/react-query";
 import { BsYoutube } from "react-icons/bs";
 import { BiSearch } from "react-icons/bi";
 import styles from "./Navbar.module.css";
+import { useDarkMode } from "../context/DarkModeContext";
+import Toggle from "./Toggle";
 
 export default function Navbar() {
+  const { darkMode, toggleDarkMode } = useDarkMode();
   const [text, setText] = useState("");
   const navigate = useNavigate();
   const handleChange = (e) => {
@@ -15,6 +18,11 @@ export default function Navbar() {
     e.preventDefault();
     //setText("");
     navigate(`/videos/${text}`);
+  };
+
+  const handleDarkMode = () => {
+    toggleDarkMode();
+    console.log(darkMode);
   };
 
   return (
@@ -37,6 +45,10 @@ export default function Navbar() {
           <BiSearch />
         </button>
       </form>
+      {/* <button className={styles.toggle}>toggle</button> */}
+      <Toggle handleDarkMode={handleDarkMode} darkMode={darkMode}>
+        {darkMode === true ? "To Light" : "To Dark"}
+      </Toggle>
     </nav>
   );
 }

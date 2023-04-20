@@ -4,7 +4,7 @@
   /* margin: 30px auto 0 auto; */
   margin: auto;
   /* grid-template-columns: repeat(5, auto); */
-  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 10px;
 }
 
@@ -29,7 +29,17 @@
     gap: 10px;
   }
 }
+
 @media (max-width: 767px) {
+  .container {
+    display: grid;
+    width: 80vw;
+    margin: 30px auto 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+@media (max-width: 600px) {
   .container {
     display: grid;
     width: 80vw;

@@ -1,13 +1,33 @@
+:root {
+  --color-bg: white;
+  --color-text: black;
+  --color-text-gray: #7d7d7d;
+  --color-gray: #dedede;
+  --color-input-bg: #f6f6f6;
+  --color-button-bg: #dedede;
+  --color-red: #d21f1f;
+}
+
+html.dark {
+  --color-bg: #131313;
+  --color-text: white;
+  --color-text-gray: #b4b4b4;
+  --color-gray: #4b4b4b;
+  --color-input-bg: #2a2a2a;
+  --color-button-bg: #4b4b4b;
+  --color-red: #d21f1f;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
