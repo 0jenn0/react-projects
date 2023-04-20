@@ -4,6 +4,7 @@ import VideoCard from "../components/VideoCard";
 import styles from "./Videos.module.css";
 import { useParams } from "react-router-dom";
 import { apis } from "../api/keyword";
+import LoadingVideoCard from "../components/loading/LoadingVideoCard";
 
 export default function Videos() {
   const [state, setState] = useState({ title: "", channelTitle: "" });
@@ -28,7 +29,21 @@ export default function Videos() {
     }));
   };
 
-  if (isLoading) return <p>Loading...</p>;
+  if (isLoading)
+    return (
+      <section className={styles.container}>
+        <LoadingVideoCard />
+        <LoadingVideoCard />
+        <LoadingVideoCard />
+        <LoadingVideoCard />
+        <LoadingVideoCard />
+        <LoadingVideoCard />
+        <LoadingVideoCard />
+        <LoadingVideoCard />
+        <LoadingVideoCard />
+        <LoadingVideoCard />
+      </section>
+    );
 
   if (error) return <p>{error}</p>;
 

@@ -54,6 +54,7 @@
 }
 
 .button {
+  cursor: pointer;
   border-style: none;
   width: 40px;
   background-color: var(--color-button-bg);

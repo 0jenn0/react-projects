@@ -49,10 +49,19 @@ export default function VideoDetail() {
               .title
           }
         </div>
-        <div className={styles.channelTitle}>
+        <div className={styles.row}>
+          <div className={styles.avatar}></div>
+          <div className={styles.channelTitle}>
+            {
+              data.data2.items.filter((item) => item.id === videoId)[0].snippet
+                .channelTitle
+            }
+          </div>
+        </div>
+        <div className={styles.detail}>
           {
             data.data2.items.filter((item) => item.id === videoId)[0].snippet
-              .channelTitle
+              .description
           }
         </div>
       </div>

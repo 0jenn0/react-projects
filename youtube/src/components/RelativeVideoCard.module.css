@@ -1,23 +1,27 @@
 .container {
-  min-width: 200px;
+  min-width: 300px;
   max-width: 500px;
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1fr 1.2fr;
   margin-bottom: 10px;
   gap: 10px;
+  color: var(--color-text);
 }
 
 .title {
   /* max-width: 200px; */
-  height: 1.5rem;
+  height: 2.3rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  margin: 0;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .channel {
   font-size: small;
   margin: 0;
+  color: var(--color-text-gray);
 }
 
 .thum {

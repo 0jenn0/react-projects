@@ -9,6 +9,15 @@ export function DarkModeProvider({ children }) {
     updateDarkMode(!darkMode);
   };
 
+  useEffect(() => {
+    const isDark =
+      localStorage.theme === "dark" ||
+      (!("them" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches);
+    setDarkMode(isDark);
+    updateDarkMode(isDark);
+  }, []);
+
   return (
     <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
       {children}
