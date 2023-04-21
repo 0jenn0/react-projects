@@ -7,7 +7,7 @@ export default function fetch_popular(API_KEY) {
     key: API_KEY,
     part: "snippet",
     chart: "mostPopular",
-    maxResults: 24,
+    maxResults: 25,
     regionCode: "KR",
   };
 

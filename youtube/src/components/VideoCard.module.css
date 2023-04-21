@@ -1,6 +1,7 @@
 .container {
   cursor: pointer;
   padding-bottom: 1rem;
+  margin: 0;
 }
 
 .img {

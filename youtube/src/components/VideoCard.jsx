@@ -42,7 +42,7 @@ export default function VideoCard({ id, thumUrl, title, channelTitle }) {
           <p className={styles.title}>{title}</p>
           <p className={styles.channel}>{channelTitle}</p>
           <span className={styles.view}>
-            조회수 {formatView(`${viewQuery.data}`)}회 • 2일 전
+            조회수 {viewQuery.data}회 • 2일 전
           </span>
 
           {/* <span className={styles.view}>
@@ -54,13 +54,13 @@ export default function VideoCard({ id, thumUrl, title, channelTitle }) {
     </div>
   );
 }
-const formatView = (view) => {
-  if (view.length >= 6) {
-    const new_view = view.slice(0, view.length - 4) + "만"; // 뒤에 4개 날리기
-    return new_view;
-  } else if ((view.length = 5)) {
-    return view[0].concat(".", view[1], "만");
-  } else if (view.length <= 4) {
-    return view;
-  }
-};
+// const formatView = (view) => {
+//   if (view.length >= 6) {
+//     const new_view = view.slice(0, view.length - 4) + "만"; // 뒤에 4개 날리기
+//     return new_view;
+//   } else if ((view.length = 5)) {
+//     return view[0].concat(".", view[1], "만");
+//   } else if (view.length <= 4) {
+//     return view;
+//   }
+// };

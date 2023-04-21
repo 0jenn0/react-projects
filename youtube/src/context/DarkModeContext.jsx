@@ -10,7 +10,8 @@ export function DarkModeProvider({ children }) {
   };
 
   // 여기서 key 바꿀것
-  const API_KEY = "AIzaSyD4fG1h33liAkLH-DMcUChgOjYP2bf2vPs";
+  // const API_KEY = "AIzaSyD4fG1h33liAkLH-DMcUChgOjYP2bf2vPs";
+  const API_KEY = "AIzaSyC1QIexEUANcjc2NkzLt_ap4UKbqYbuvcU";
 
   useEffect(() => {
     // const isDark =
