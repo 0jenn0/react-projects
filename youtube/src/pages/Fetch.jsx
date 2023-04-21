@@ -7,13 +7,14 @@ import axios from "axios";
 import fetch_channel from "../apis/getChannelbyId";
 import fetch_related from "../apis/related";
 import fetchChannelImage from "../apis/channelImg";
-
+import { useDarkMode } from "../context/DarkModeContext";
 export default function Fetch() {
   const { videoId } = useParams();
+  const { API_KEY } = useDarkMode();
 
   const channelQuery = useQuery(
     ["channel", videoId],
-    () => fetch_channel(videoId),
+    () => fetch_channel(videoId, API_KEY),
     {
       staleTime: 1000 * 60 * 5,
     }
@@ -21,7 +22,7 @@ export default function Fetch() {
 
   const relatedQuery = useQuery(
     ["related", videoId],
-    () => fetch_related(videoId),
+    () => fetch_related(videoId, API_KEY),
     {
       staleTime: 1000 * 60 * 5,
     }
@@ -42,7 +43,7 @@ export default function Fetch() {
 
   const channelImgQuery = useQuery(
     ["channelImg", videoId],
-    () => fetchChannelImage(videoId),
+    () => fetchChannelImage(videoId, API_KEY),
     {
       staleTime: 1000 * 60 * 5,
     }

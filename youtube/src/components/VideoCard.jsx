@@ -8,12 +8,10 @@ export default function VideoCard({
   thumUrl,
   title,
   channelTitle,
-  onClick,
   channelImg,
 }) {
   const navigate = useNavigate();
   const handleClick = () => {
-    onClick();
     navigate(`/videos/watch/${id}`);
   };
   return (

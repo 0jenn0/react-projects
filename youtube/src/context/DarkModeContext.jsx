@@ -9,6 +9,9 @@ export function DarkModeProvider({ children }) {
     updateDarkMode(!darkMode);
   };
 
+  // 여기서 key 바꿀것
+  const API_KEY = "AIzaSyD4fG1h33liAkLH-DMcUChgOjYP2bf2vPs";
+
   useEffect(() => {
     // const isDark =
     //   localStorage.theme === "dark" ||
@@ -21,7 +24,7 @@ export function DarkModeProvider({ children }) {
   }, []);
 
   return (
-    <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
+    <DarkModeContext.Provider value={{ darkMode, toggleDarkMode, API_KEY }}>
       {children}
     </DarkModeContext.Provider>
   );

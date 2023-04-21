@@ -8,6 +8,11 @@
   gap: 10px;
 }
 
+.ChannelCard {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
 @media (max-width: 1200px) {
   .container {
     display: grid;

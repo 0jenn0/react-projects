@@ -6,22 +6,13 @@ import RelativeVideoCard from "../components/RelativeVideoCard";
 import axios from "axios";
 import fetch_channel from "../apis/getChannelbyId";
 import fetch_related from "../apis/related";
+import { useDarkMode } from "../context/DarkModeContext";
 
 export default function VideoDetail() {
   const { videoId } = useParams();
-
-  //   const fetchData = async () => {
-  //     const [channelData, relatedData] = await Promise.all([
-  //       fetch_channel(videoId),
-  //       fetch_related(videoId),
-  //     ]);
-  //     const channelData = fetch_channel(videoId);
-  //     const relatedData = fetch_related(videoId);
-  //     return { channelData, relatedData };
-  //   };
-
+  const { API_KEY } = useDarkMode();
   const channelQuery = useQuery(["channel", videoId], () =>
-    fetch_channel(videoId)
+    fetch_channel(videoId, API_KEY)
   );
 
   return (
