@@ -4,53 +4,70 @@ import { useParams } from "react-router-dom";
 import styles from "./VideoDetail.module.css";
 import RelativeVideoCard from "../components/RelativeVideoCard";
 import axios from "axios";
-import fetch_channel from "../apis/getChannelbyId";
-import fetch_related from "../apis/related";
 
 export default function VideoDetail() {
   const { videoId } = useParams();
+  const url = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1`;
 
-  //   const fetchData = async () => {
-  //     const [channelData, relatedData] = await Promise.all([
-  //       fetch_channel(videoId),
-  //       fetch_related(videoId),
-  //     ]);
-  //     const channelData = fetch_channel(videoId);
-  //     const relatedData = fetch_related(videoId);
-  //     return { channelData, relatedData };
-  //   };
+  const fetchData = async () => {
+    const path1 = "/data/list_by_related.json";
+    const path2 = "/data/list_by_popular.json";
 
-  const channelQuery = useQuery(["channel", videoId], () =>
-    fetch_channel(videoId)
+    const [data1, data2] = await Promise.all([
+      axios.get(path1).then((res) => res.data),
+      axios.get(path2).then((res) => res.data),
+    ]);
+
+    return { data1, data2 };
+  };
+
+  const { isLoading, error, data } = useQuery(
+    ["fetchData", videoId],
+    fetchData
   );
 
+  if (isLoading) return <p>Loading...</p>;
+
+  if (error) return <p>{error}</p>;
+  // console.log(
+  //   data.data2.items.filter((item) => item.id === videoId)[0].snippet.title
+  // );
   return (
     <section className={styles.container}>
       <div className={styles.column1}>
-        {/* <iframe
+        <iframe
           className={styles.iframe}
           id={videoId}
           // width="840"
           // height="460"
-          src={videoId}
+          src={url}
           frameborder="0"
-        ></iframe> */}
+        ></iframe>
         <div className={styles.title}>
-          {channelQuery.data.items[0].snippet.title}
+          {
+            data.data2.items.filter((item) => item.id === videoId)[0].snippet
+              .title
+          }
         </div>
         <div className={styles.row}>
           <div className={styles.avatar}></div>
           <div className={styles.channelTitle}>
-            {channelQuery.data.items[0].snippet.channelTitle}
+            {
+              data.data2.items.filter((item) => item.id === videoId)[0].snippet
+                .channelTitle
+            }
           </div>
         </div>
         <div className={styles.detail}>
-          {channelQuery.data.items[0].snippet.description}
+          {
+            data.data2.items.filter((item) => item.id === videoId)[0].snippet
+              .description
+          }
         </div>
       </div>
-      {/* 
-     <div>
-        {relatedQuery.data.items.map((item) => (
+
+      <div>
+        {data.data1.items.map((item) => (
           <RelativeVideoCard
             isRelated={true}
             key={item.id.videoId}
@@ -60,7 +77,7 @@ export default function VideoDetail() {
             channelTitle={item.snippet.channelTitle}
           />
         ))}
-      </div>  */}
+      </div>
     </section>
   );
 }

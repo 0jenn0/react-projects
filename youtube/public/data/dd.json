@@ -1,0 +1,84 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "nLnMuSjTlzk-wi4pok0OvhCtvFc",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "Xb2cqloJHUoeU_p-AqXnlirJus8",
+      "id": "nZtfW352d34",
+      "snippet": {
+        "publishedAt": "2023-04-17T10:00:30Z",
+        "channelId": "UCyn-K7rZLXjGl7VXGweIlcA",
+        "title": "[백종원 시장이 되다 13화] 재개장 완료한 환상의 예산시장... 뭔가 보여드리겠습니다!💪",
+        "description": "#백종원 #백종원시장이되다 #예산\n\n4월 1일 오픈한 예산상설시장!\n다들 가보셨나요?\n\n잠시 휴장에 들어갔던 한 달 동안\n방문하는 팀원분들이 더 다양하고, 더 편하게! 즐길 수 있게\n사상 최대!\n더본코리아 전부서는 물론\n많은 곳에서 힘을 보태주셨습니다!💪\n\n그런데...!\n왜 항상 슬픈 예감은 틀리지 않는지...\n\n무차별적인 건물주의 퇴거 통보에,\n여기저기서 들려오는 흉흉한 소문까지\n예산시장에서도 여지없이 고개를 드는 젠트리피케이션...!\n\n과연...\n예산 프로젝트는 이런 위기를 잘 극복해내고\n지역 경제 활성화라는 꿈을 이뤄낼 수 있을까요?!\n\n\n_\n\n00:00 인트로\n01:09 휴장 스타-또!\n03:38 변화된 모습✨\n07:11 공사 시작!\n08:22 젠트리피케이션?😥\n10:26 하나가 되자!\n12:55 부탁 드립니다..\n16:15 예고편!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nZtfW352d34/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nZtfW352d34/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nZtfW352d34/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nZtfW352d34/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nZtfW352d34/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "백종원 PAIK JONG WON",
+        "tags": [
+          "백종원",
+          "시장",
+          "백종원예산",
+          "예산시장",
+          "재개장",
+          "더본코리아",
+          "지역경제",
+          "활성화 리모델링",
+          "비하인드스토리",
+          "창업",
+          "자영업",
+          "젠트리피케이션",
+          "음식여행",
+          "theborn",
+          "paik jong won",
+          "얘산",
+          "백종원거리",
+          "족발 볶음밥",
+          "구구통닭",
+          "배종원",
+          "정보",
+          "꿀팁",
+          "재개발",
+          "상권",
+          "요리"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "[백종원 시장이 되다 13화] 재개장 완료한 환상의 예산시장... 뭔가 보여드리겠습니다!💪",
+          "description": "#백종원 #백종원시장이되다 #예산\n\n4월 1일 오픈한 예산상설시장!\n다들 가보셨나요?\n\n잠시 휴장에 들어갔던 한 달 동안\n방문하는 팀원분들이 더 다양하고, 더 편하게! 즐길 수 있게\n사상 최대!\n더본코리아 전부서는 물론\n많은 곳에서 힘을 보태주셨습니다!💪\n\n그런데...!\n왜 항상 슬픈 예감은 틀리지 않는지...\n\n무차별적인 건물주의 퇴거 통보에,\n여기저기서 들려오는 흉흉한 소문까지\n예산시장에서도 여지없이 고개를 드는 젠트리피케이션...!\n\n과연...\n예산 프로젝트는 이런 위기를 잘 극복해내고\n지역 경제 활성화라는 꿈을 이뤄낼 수 있을까요?!\n\n\n_\n\n00:00 인트로\n01:09 휴장 스타-또!\n03:38 변화된 모습✨\n07:11 공사 시작!\n08:22 젠트리피케이션?😥\n10:26 하나가 되자!\n12:55 부탁 드립니다..\n16:15 예고편!"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
