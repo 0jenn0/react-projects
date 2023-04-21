@@ -6,7 +6,7 @@ import Videos from "./pages/Videos";
 import VideoDetail from "./pages/VideoDetail";
 import Root from "./pages/Root";
 import { DarkModeProvider } from "./context/DarkModeContext";
-import Fetch from "./pages/Fetch";
+import VideoDetail_fix from "./pages/VideoDetail_fix";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
       { path: "videos", element: <Videos /> },
       { path: "videos/:keyword", element: <Videos /> },
       // { path: "videos/watch/:videoId", element: <VideoDetail /> },
-      { path: "videos/watch/:videoId", element: <Fetch /> },
+      { path: "videos/watch/:videoId", element: <VideoDetail_fix /> },
     ],
   },
 ]);

@@ -1,0 +1,70 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "AVi_8kUiaOOuPH7DFZ7lDhTZYFU",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "JTDRMeRpUPVrVOPDqmr84Rdb4f0",
+      "id": "7nRiE4sLLxE",
+      "snippet": {
+        "publishedAt": "2023-04-17T09:00:07Z",
+        "channelId": "UCEf_Bc-KVd7onSeifS3py9g",
+        "title": "NCT DOJAEJUNG 엔시티 도재정 'Perfume' MV",
+        "description": "NCT DOJAEJUNG's 1st Mini Album \"Perfume\" is out!\nListen and download on your favorite platform: https://NCTDOJAEJUNG.lnk.to/Perfume\n\n[Tracklist]\n01 Perfume\n02 Kiss\n03 Dive\n04 Strawberry Sunday\n05 후유증 (Can We Go Back)\n06 안녕 (Ordinary)\n\nNCT DOJAEJUNG Official\nhttps://www.youtube.com/nctsmtown\nhttps://www.instagram.com/nct_dojaejung/\nhttp://www.tiktok.com/@official_nct\nhttp://twitter.com/NCTsmtown\nhttp://www.facebook.com/NCT.smtown\n\n#NCT_DOJAEJUNG #DOJAEJUNG #NCT\n#Perfume #DOJAEJUNG_Perfume\nNCT DOJAEJUNG 엔시티 도재정 'Perfume' MV ℗ SM Entertainment",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7nRiE4sLLxE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7nRiE4sLLxE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7nRiE4sLLxE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/7nRiE4sLLxE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/7nRiE4sLLxE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SMTOWN",
+        "tags": [
+          "nct dojaejung",
+          "perfume",
+          "mv",
+          "music video",
+          "doyoung",
+          "jaehyun"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "NCT DOJAEJUNG 엔시티 도재정 'Perfume' MV",
+          "description": "NCT DOJAEJUNG's 1st Mini Album \"Perfume\" is out!\nListen and download on your favorite platform: https://NCTDOJAEJUNG.lnk.to/Perfume\n\n[Tracklist]\n01 Perfume\n02 Kiss\n03 Dive\n04 Strawberry Sunday\n05 후유증 (Can We Go Back)\n06 안녕 (Ordinary)\n\nNCT DOJAEJUNG Official\nhttps://www.youtube.com/nctsmtown\nhttps://www.instagram.com/nct_dojaejung/\nhttp://www.tiktok.com/@official_nct\nhttp://twitter.com/NCTsmtown\nhttp://www.facebook.com/NCT.smtown\n\n#NCT_DOJAEJUNG #DOJAEJUNG #NCT\n#Perfume #DOJAEJUNG_Perfume\nNCT DOJAEJUNG 엔시티 도재정 'Perfume' MV ℗ SM Entertainment"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "statistics": {
+        "viewCount": "12203960",
+        "likeCount": "380380",
+        "favoriteCount": "0",
+        "commentCount": "24407"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}

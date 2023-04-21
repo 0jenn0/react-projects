@@ -1,11 +1,11 @@
 import React from "react";
-
+import styles from "./ChannelCard.module.css";
 export default function ChannelCard({ imgUrl, channelTitle, subscribeNum }) {
   return (
-    <div>
-      <img src={imgUrl} alt="" />
+    <div className={styles.container}>
+      <img className={styles.img} src={imgUrl} alt="" />
       <div>
-        <p>{channelTitle}</p>
+        <p className={styles.title}>{channelTitle}</p>
         <p>{subscribeNum}</p>
       </div>
     </div>

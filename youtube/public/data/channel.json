@@ -1,6 +1,6 @@
 {
   "kind": "youtube#channelListResponse",
-  "etag": "hGXRI4MpeuzMpF9OdPLwesTc9h4",
+  "etag": "KvMd4cAETbp9AHy2-AvemDuMAH8",
   "pageInfo": {
     "totalResults": 1,
     "resultsPerPage": 5
@@ -8,7 +8,7 @@
   "items": [
     {
       "kind": "youtube#channel",
-      "etag": "mmpGM3hbghQ3kmV_LkGvTrbIUS4",
+      "etag": "6S9ACjF1wXECfBsLsxFyTzpuOb8",
       "id": "UCLkAepWjdylmXSltofFvsYQ",
       "snippet": {
         "title": "BANGTANTV",
@@ -36,18 +36,6 @@
           "title": "BANGTANTV",
           "description": "This is the official YouTube channel of BTS. 방탄소년단 공식 유튜브 채널 입니다."
         }
-      },
-      "contentDetails": {
-        "relatedPlaylists": {
-          "likes": "",
-          "uploads": "UULkAepWjdylmXSltofFvsYQ"
-        }
-      },
-      "statistics": {
-        "viewCount": "20091511512",
-        "subscriberCount": "74300000",
-        "hiddenSubscriberCount": false,
-        "videoCount": "2174"
       }
     }
   ]

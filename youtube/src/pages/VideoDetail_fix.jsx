@@ -8,7 +8,7 @@ import fetch_channel from "../apis/getChannelbyId";
 import fetch_related from "../apis/related";
 import fetchChannelImage from "../apis/channelImg";
 import { useDarkMode } from "../context/DarkModeContext";
-export default function Fetch() {
+export default function VideoDetail_fix() {
   const { videoId } = useParams();
   const { API_KEY } = useDarkMode();
 
