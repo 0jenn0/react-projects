@@ -10,8 +10,7 @@ export function DarkModeProvider({ children }) {
   };
 
   // 여기서 key 바꿀것
-  // const API_KEY = "AIzaSyD4fG1h33liAkLH-DMcUChgOjYP2bf2vPs";
-  const API_KEY = "AIzaSyC1QIexEUANcjc2NkzLt_ap4UKbqYbuvcU";
+  const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
 
   useEffect(() => {
     // const isDark =
